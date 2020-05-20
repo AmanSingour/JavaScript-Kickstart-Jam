@@ -1,0 +1,29 @@
+html, body,
+.container{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #9eee9e;
+}
+
+.timer{
+    font-size: 3em;
+    color: #9eee9e;
+}
+
+.timeBlocks{
+    padding: 16px;
+    border: 1px solid #2e2e2e;
+    background-color: rgba(0  , 0, 0, 0.8);
+    border-radius: 5px;
+    margin: 8px;
+}
